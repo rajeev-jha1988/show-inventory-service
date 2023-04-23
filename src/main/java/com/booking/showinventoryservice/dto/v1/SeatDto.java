@@ -1,6 +1,6 @@
-package com.example.showinventoryservice.dto.v1;
+package com.booking.showinventoryservice.dto.v1;
 
-import com.example.showinventoryservice.enums.SeatStatus;
+import com.booking.showinventoryservice.enums.SeatStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

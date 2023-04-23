@@ -1,7 +1,7 @@
-package com.example.showinventoryservice.dto.v1.response;
+package com.booking.showinventoryservice.dto.v1.response;
 
 
-import com.example.showinventoryservice.dto.v1.SeatDto;
+import com.booking.showinventoryservice.dto.v1.SeatDto;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

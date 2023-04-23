@@ -1,8 +1,8 @@
-package com.example.showinventoryservice.service.v1;
+package com.booking.showinventoryservice.service.v1;
 
-import com.example.showinventoryservice.entity.Auditorium;
-import com.example.showinventoryservice.repository.AuditoriumRepository;
-import com.example.showinventoryservice.service.AuditoriumService;
+import com.booking.showinventoryservice.entity.Auditorium;
+import com.booking.showinventoryservice.repository.AuditoriumRepository;
+import com.booking.showinventoryservice.service.AuditoriumService;
 import org.springframework.stereotype.Service;
 
 @Service

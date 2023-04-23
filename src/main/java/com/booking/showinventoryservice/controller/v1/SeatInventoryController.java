@@ -1,11 +1,11 @@
-package com.example.showinventoryservice.controller.v1;
+package com.booking.showinventoryservice.controller.v1;
 
 
-import com.example.showinventoryservice.dto.v1.AddSeatDto;
-import com.example.showinventoryservice.dto.v1.SeatDto;
-import com.example.showinventoryservice.dto.v1.SeatReserveDto;
-import com.example.showinventoryservice.dto.v1.response.SeatResponseDto;
-import com.example.showinventoryservice.service.SeatService;
+import com.booking.showinventoryservice.dto.v1.AddSeatDto;
+import com.booking.showinventoryservice.dto.v1.SeatDto;
+import com.booking.showinventoryservice.dto.v1.response.SeatResponseDto;
+import com.booking.showinventoryservice.service.SeatService;
+import com.booking.showinventoryservice.dto.v1.SeatReserveDto;
 import io.swagger.annotations.Api;
 import java.util.List;
 import javax.validation.Valid;

@@ -1,4 +1,4 @@
-package com.example.showinventoryservice.exceptions;
+package com.booking.showinventoryservice.exceptions;
 
 import java.util.AbstractMap;
 import org.slf4j.Logger;

@@ -1,6 +1,6 @@
-package com.example.showinventoryservice.entity;
+package com.booking.showinventoryservice.entity;
 
-import com.example.showinventoryservice.enums.SeatStatus;
+import com.booking.showinventoryservice.enums.SeatStatus;
 import java.io.Serializable;
 import java.time.Instant;
 import javax.persistence.Column;

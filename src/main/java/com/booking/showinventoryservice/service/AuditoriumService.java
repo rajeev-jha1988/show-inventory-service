@@ -1,6 +1,6 @@
-package com.example.showinventoryservice.service;
+package com.booking.showinventoryservice.service;
 
-import com.example.showinventoryservice.entity.Auditorium;
+import com.booking.showinventoryservice.entity.Auditorium;
 
 public interface AuditoriumService {
         Auditorium save(Auditorium auditorium);

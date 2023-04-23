@@ -1,6 +1,6 @@
-package com.example.showinventoryservice.repository;
+package com.booking.showinventoryservice.repository;
 
-import com.example.showinventoryservice.entity.ShowTime;
+import com.booking.showinventoryservice.entity.ShowTime;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

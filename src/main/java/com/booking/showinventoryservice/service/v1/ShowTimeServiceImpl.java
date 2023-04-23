@@ -1,12 +1,12 @@
-package com.example.showinventoryservice.service.v1;
+package com.booking.showinventoryservice.service.v1;
 
-import com.example.showinventoryservice.entity.ShowTime;
-import com.example.showinventoryservice.repository.ShowTimeRepository;
-import com.example.showinventoryservice.service.ShowTimeService;
+import com.booking.showinventoryservice.entity.ShowTime;
+import com.booking.showinventoryservice.repository.ShowTimeRepository;
+import com.booking.showinventoryservice.service.ShowTimeService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ShowTimeServiceImpl implements ShowTimeService  {
+public class ShowTimeServiceImpl implements ShowTimeService {
 
     private final ShowTimeRepository showTimeRepository;
 

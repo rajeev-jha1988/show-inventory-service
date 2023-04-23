@@ -1,6 +1,6 @@
-package com.example.showinventoryservice.service;
+package com.booking.showinventoryservice.service;
 
-import com.example.showinventoryservice.entity.ShowTime;
+import com.booking.showinventoryservice.entity.ShowTime;
 
 public interface ShowTimeService {
 

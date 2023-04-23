@@ -1,4 +1,4 @@
-package com.example.showinventoryservice.exceptions;
+package com.booking.showinventoryservice.exceptions;
 
 public class NotFoundException extends InventoryException{
 

@@ -1,4 +1,4 @@
-package com.example.showinventoryservice.enums;
+package com.booking.showinventoryservice.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

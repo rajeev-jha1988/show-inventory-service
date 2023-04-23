@@ -1,4 +1,4 @@
-package com.example.showinventoryservice.entity;
+package com.booking.showinventoryservice.entity;
 
 import java.io.Serializable;
 import java.time.Instant;

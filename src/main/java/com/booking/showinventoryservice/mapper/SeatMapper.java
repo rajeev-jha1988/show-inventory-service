@@ -1,8 +1,8 @@
-package com.example.showinventoryservice.mapper;
+package com.booking.showinventoryservice.mapper;
 
-import com.example.showinventoryservice.dto.v1.AddSeatDto.SeatInfo;
-import com.example.showinventoryservice.dto.v1.SeatDto;
-import com.example.showinventoryservice.entity.Seat;
+import com.booking.showinventoryservice.dto.v1.SeatDto;
+import com.booking.showinventoryservice.dto.v1.AddSeatDto.SeatInfo;
+import com.booking.showinventoryservice.entity.Seat;
 import java.util.List;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;

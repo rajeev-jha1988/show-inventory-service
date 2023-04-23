@@ -1,8 +1,8 @@
-package com.example.showinventoryservice.repository;
+package com.booking.showinventoryservice.repository;
 
-import com.example.showinventoryservice.entity.Seat;
-import com.example.showinventoryservice.entity.ShowTime;
-import com.example.showinventoryservice.enums.SeatStatus;
+import com.booking.showinventoryservice.entity.Seat;
+import com.booking.showinventoryservice.entity.ShowTime;
+import com.booking.showinventoryservice.enums.SeatStatus;
 import java.util.List;
 import javax.persistence.LockModeType;
 import javax.persistence.QueryHint;

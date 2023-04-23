@@ -1,4 +1,4 @@
-package com.example.showinventoryservice.dto.v1;
+package com.booking.showinventoryservice.dto.v1;
 
 import java.util.List;
 import javax.validation.Valid;

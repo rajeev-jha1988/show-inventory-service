@@ -1,17 +1,17 @@
-package com.example.showinventoryservice.service.v1;
+package com.booking.showinventoryservice.service.v1;
 
-import com.example.showinventoryservice.dto.v1.AddSeatDto;
-import com.example.showinventoryservice.dto.v1.SeatDto;
-import com.example.showinventoryservice.dto.v1.SeatReserveDto;
-import com.example.showinventoryservice.dto.v1.response.SeatResponseDto;
-import com.example.showinventoryservice.entity.Seat;
-import com.example.showinventoryservice.entity.ShowTime;
-import com.example.showinventoryservice.enums.SeatStatus;
-import com.example.showinventoryservice.exceptions.NotFoundException;
-import com.example.showinventoryservice.mapper.SeatMapper;
-import com.example.showinventoryservice.repository.SeatRepository;
-import com.example.showinventoryservice.service.SeatService;
-import com.example.showinventoryservice.service.ShowTimeService;
+import com.booking.showinventoryservice.dto.v1.AddSeatDto;
+import com.booking.showinventoryservice.dto.v1.SeatDto;
+import com.booking.showinventoryservice.dto.v1.response.SeatResponseDto;
+import com.booking.showinventoryservice.entity.Seat;
+import com.booking.showinventoryservice.entity.ShowTime;
+import com.booking.showinventoryservice.enums.SeatStatus;
+import com.booking.showinventoryservice.mapper.SeatMapper;
+import com.booking.showinventoryservice.repository.SeatRepository;
+import com.booking.showinventoryservice.service.SeatService;
+import com.booking.showinventoryservice.service.ShowTimeService;
+import com.booking.showinventoryservice.dto.v1.SeatReserveDto;
+import com.booking.showinventoryservice.exceptions.NotFoundException;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
@@ -38,7 +38,7 @@ public class SeatServiceImpl implements SeatService {
 
         List<Seat> byIdIn = seatReserveDto.getSeats().stream().map( seatDto ->
             seatRepository.findByRowAndColumnAndShowTimeAndSeatStatus( seatDto.getRow(), seatDto.getColumn(),
-                showTime,SeatStatus.AVAILABLE )
+                showTime, SeatStatus.AVAILABLE )
         ).collect( Collectors.toList() );
 
 
